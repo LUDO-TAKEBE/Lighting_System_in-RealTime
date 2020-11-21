@@ -1,5 +1,5 @@
 {
-	"name" : "se-realLightingKiller",
+	"name" : "se-real-LightingKiller",
 	"version" : 1,
 	"creationdate" : 3685739839,
 	"modificationdate" : 3686854264,
@@ -50,7 +50,7 @@
 ,
 	"searchpath" : 	{
 		"0" : 		{
-			"bootpath" : "~/Documents/Max 8/Projects/withStageLighting/node_content",
+			"bootpath" : "~/node_content",
 			"projectrelativepath" : "./node_content",
 			"label" : "Node Content",
 			"recursive" : 1,
@@ -68,7 +68,7 @@
 		}
 ,
 		"2" : 		{
-			"bootpath" : "~/Documents/Max 8/Projects/withStageLighting/node_content/node_modules",
+			"bootpath" : "~/node_content/node_modules",
 			"projectrelativepath" : "./node_content/node_modules",
 			"label" : "Node Modules",
 			"recursive" : 1,
