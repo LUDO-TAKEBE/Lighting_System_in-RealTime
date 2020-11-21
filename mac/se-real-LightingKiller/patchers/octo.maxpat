@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -343,7 +343,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 462.285724357143408, 140.15625, 65.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -914,7 +914,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1660,13 +1660,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+						"rect" : [ 820.0, 248.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1852,11 +1852,11 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 129.25625589283095, 389.0, 22.0 ],
+									"patching_rect" : [ 50.0, 129.25625589283095, 151.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 16,
-									"presentation_rect" : [ 55.0, 57.0, 36.0, 223.0 ],
-									"text" : "read /Users/LUDO/Desktop/VAE_for_lighting/sig2DMX(octo)/rand.dmxp"
+									"presentation_linecount" : 6,
+									"presentation_rect" : [ 55.0, 57.0, 36.0, 89.0 ],
+									"text" : "read ./sig2DMX/rand.dmxp"
 								}
 
 							}
@@ -1933,6 +1933,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-54", 0 ],
 									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-56", 0 ],
+									"source" : [ "obj-54", 0 ]
 								}
 
 							}
@@ -2238,7 +2245,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2939,7 +2946,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3162,7 +3169,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3574,7 +3581,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4579,7 +4586,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4648,7 +4655,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5246,7 +5253,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5501,7 +5508,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7468,15 +7475,22 @@
 		"dependency_cache" : [ 			{
 				"name" : "octopod_48ch.maxpat",
 				"bootpath" : "~/Desktop/VAE_for_lighting/sig2DMX(octo)",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../../../../../Desktop/VAE_for_lighting/sig2DMX(octo)",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fade.maxpat",
-				"bootpath" : "~/Desktop/VAE_for_lighting/sig2DMX",
-				"patcherrelativepath" : "../sig2DMX",
+				"bootpath" : "~/Downloads/Lighting_System_in-RealTime-main/mac/se-real-LightingKiller/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rand.dmxp",
+				"bootpath" : "~/Downloads/Lighting_System_in-RealTime-main/mac/se-real-LightingKiller/sig2DMX",
+				"patcherrelativepath" : "../sig2DMX",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -7492,8 +7506,15 @@
 		"styles" : [ 			{
 				"name" : "color1",
 				"default" : 				{
-					"textcolor" : [ 0.066666666666667, 0.423529411764706, 0.0, 1.0 ],
+					"textjustification" : [ 1 ],
+					"locked_bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
+					"accentcolor" : [ 0.698039215686274, 0.698039215686274, 0.698039215686274, 1.0 ],
 					"patchlinecolor" : [ 0.0, 0.313725490196078, 0.996078431372549, 1.0 ],
+					"editing_bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textcolor" : [ 0.066666666666667, 0.423529411764706, 0.0, 1.0 ],
+					"color" : [ 0.407843137254902, 0.925490196078431, 0.976470588235294, 1.0 ],
+					"textcolor_inverse" : [ 0.898039215686275, 0.996078431372549, 0.890196078431372, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.2, 0.2, 0.2, 1.0 ],
@@ -7504,14 +7525,7 @@
 						"autogradient" : 0.0
 					}
 ,
-					"accentcolor" : [ 0.698039215686274, 0.698039215686274, 0.698039215686274, 1.0 ],
-					"color" : [ 0.407843137254902, 0.925490196078431, 0.976470588235294, 1.0 ],
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textjustification" : [ 1 ],
-					"fontname" : [ "Helvetica " ],
-					"editing_bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"locked_bgcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
-					"textcolor_inverse" : [ 0.898039215686275, 0.996078431372549, 0.890196078431372, 1.0 ]
+					"fontname" : [ "Helvetica " ]
 				}
 ,
 				"parentstyle" : "",
@@ -7520,7 +7534,12 @@
 , 			{
 				"name" : "ludo",
 				"default" : 				{
+					"textjustification" : [ 1 ],
+					"accentcolor" : [ 0.682352941176471, 0.682352941176471, 0.682352941176471, 1.0 ],
+					"elementcolor" : [ 0.305882352941176, 0.419607843137255, 0.423529411764706, 1.0 ],
 					"patchlinecolor" : [ 0.349019607843137, 0.43921568627451, 0.568627450980392, 1.0 ],
+					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
+					"color" : [ 0.0, 0.964705882352941, 0.996078431372549, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.03921568627451, 0.0, 0.380392156862745, 1.0 ],
@@ -7530,12 +7549,7 @@
 						"proportion" : 0.5,
 						"autogradient" : 0.0
 					}
-,
-					"accentcolor" : [ 0.682352941176471, 0.682352941176471, 0.682352941176471, 1.0 ],
-					"color" : [ 0.0, 0.964705882352941, 0.996078431372549, 1.0 ],
-					"elementcolor" : [ 0.305882352941176, 0.419607843137255, 0.423529411764706, 1.0 ],
-					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
-					"textjustification" : [ 1 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -7553,6 +7567,7 @@
 , 			{
 				"name" : "wSL",
 				"default" : 				{
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.015686274509804, 0.0, 0.149019607843137, 1.0 ],
@@ -7562,8 +7577,7 @@
 						"proportion" : 0.5,
 						"autogradient" : 0.0
 					}
-,
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "ludo",
