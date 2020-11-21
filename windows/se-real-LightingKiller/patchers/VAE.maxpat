@@ -2464,32 +2464,8 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-10",
-									"linecount" : 5,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 186.0, 109.0, 118.0, 76.0 ],
-									"text" : "/Users/LUDO/Desktop/VAE_for_lighting/lightingVAE/release/models/model_preset.model/model.json"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-8",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 186.0, 80.0, 58.0, 22.0 ],
-									"text" : "r lb_send"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"id" : "obj-7",
 									"maxclass" : "newobj",
@@ -3066,13 +3042,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-7", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"source" : [ "obj-8", 0 ]
 								}
 
 							}
@@ -4906,8 +4875,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -5644,7 +5611,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "vae_lighting.js",
-				"bootpath" : "~/Downloads/Lighting_System_in-RealTime-main/Lighting_System_in-RealTime-main/mac/se-real-LightingKiller/node_content",
+				"bootpath" : "~/Downloads/Lighting_System_in-RealTime-main/Lighting_System_in-RealTime-main/windows/se-real-LightingKiller/node_content",
 				"patcherrelativepath" : "../node_content",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -5681,10 +5648,7 @@
 , 			{
 				"name" : "wSL",
 				"default" : 				{
-					"textjustification" : [ 1 ],
-					"accentcolor" : [ 0.682352941176471, 0.682352941176471, 0.682352941176471, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.305882352941176, 0.419607843137255, 0.423529411764706, 1.0 ],
 					"patchlinecolor" : [ 0.349019607843137, 0.43921568627451, 0.568627450980392, 1.0 ],
 					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
 					"bgfillcolor" : 					{
@@ -5696,7 +5660,10 @@
 						"proportion" : 0.5,
 						"autogradient" : 0.0
 					}
-
+,
+					"textjustification" : [ 1 ],
+					"accentcolor" : [ 0.682352941176471, 0.682352941176471, 0.682352941176471, 1.0 ],
+					"elementcolor" : [ 0.305882352941176, 0.419607843137255, 0.423529411764706, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
